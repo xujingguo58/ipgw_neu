@@ -37,7 +37,9 @@ npm test
       }
   ```
   在实际环境中，可能就需要另外配置。
-  2.然后为了减少工作量，直接使用了原ip网关的函数，由于原ip网关使用的使jquery，在vue中引入jquery总是感觉怪怪的。
+  
+  2.然后为了减少工作量，直接使用了原ip网关的函数，由于原ip网关使用的是jquery，但在vue中引入jquery总是感觉怪怪的。
+  
   3.前端UI使用的mint-UI，一套适用于移动设配的vue前端UI组件。
 ### 效果截图：
 ![效果截图](https://github.com/xujingguo58/ipgw_neu/blob/master/localhost-8080-(Galaxy%20S5).png)
