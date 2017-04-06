@@ -38,9 +38,11 @@ npm test
   ```
   在实际环境中，可能就需要另外配置。
   
-  2.然后为了减少工作量，直接使用了原ip网关的函数，由于原ip网关使用的是jquery，但在vue中引入jquery总是感觉怪怪的。
+  2.然后为了减少工作量，直接使用了原ip网关的函数，由于原ip网关使用的是jquery，但在vue中引入jquery总是感觉怪怪的。以后会考虑使用vue-resource发送http请求。
   
   3.前端UI使用的mint-UI，一套适用于移动设配的vue前端UI组件。
+  
+  4.数据存储方面采用html5的locakStorage，用户选择“记住我”时，写入用户名和密码，（遗憾的是没有实现加密），当用户不选择记住时，将用户名密码写入空。
 ### 效果截图：
 ![效果截图](https://github.com/xujingguo58/ipgw_neu/blob/master/localhost-8080-(Galaxy%20S5).png)
 
